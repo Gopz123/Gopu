@@ -14,7 +14,7 @@ function Home() {
             name="Potato"
             price={30}
             vendor="Nagpur farms"
-            image="/potato.jpg"
+            image="potato.jpg"
             category="vegetables"
           />
           <Product

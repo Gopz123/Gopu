@@ -18,7 +18,10 @@ function Header() {
   return (
     <div className="header">
       <Link to="/">
-      
+        { <img
+          className="header__logo"
+          src="logo4.png"
+        /> }
       </Link>
 
       <div className="header__search">

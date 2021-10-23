@@ -29,10 +29,12 @@ function Product({ id,name, image, price, vendor,category }) {
           <small>Rs </small>
           <strong>{price}</strong>
         </p>
-       
+        <p><p>{category}</p></p>
+        <p><p>{vendor}</p></p>
+        
       </div>
 
-      <img src={image} alt="" />
+      <img src={image} alt=""/>
 
       <button onClick={addToBasket}>Add to Basket</button>
     </div>
